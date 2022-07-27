@@ -158,7 +158,7 @@ animationScripts.push({
   function() {
     camera.lookAt(box.position);
     camera.position.set(0, 1, 10);
-    box.rotation.z = lerp(0, Math.PI, scalePercent(40, 60));
+    box.rotation.z = lerp(1, Math.PI, scalePercent(40, 60));
   },
 });
 
